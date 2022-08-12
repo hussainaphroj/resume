@@ -67,100 +67,104 @@ experiences:
       time: 2019 - Present
       company: Etisalat Technology Services
       details: |
-          - Automated patching for Linux such as CentOS, RedHat, Ubuntu, and Suse using Ansible.
+          - Automated VM provision on VCloud Director using Terraform and integrated with Ansible to apply the base configuration on newly provisioned VMS.
+		  - Automated patching for Linux such as CentOS, RedHat, Ubuntu, and Suse using Ansible.
           - Automated OS hardening for Linux based on CIS Benchmark using Ansible.
-    - role: Senior Software Engineer
+          - Automated Azure Kubernetes Service(AKS) with Application Gateway Ingress using Terraform and Helm.
+          - Created Gitlab pipeline for the automatic deployment of EKS.
+          - Used Azure pipeline for continuous integration
+          - Installed and configure the Salt Stack to support the multiple tenancy architecture
+          - Created a python application to create a service overview report which contains system availability and resource utilization.
+          - Automated the daily operation tasks such a s User Management, Sftp setup, Tomcat Installation, Apache, Symantec agent, Monitoring agent, VG, and LV extension.
+          - Configured internal RedHat Repo using NGINX.
+          - Automate MySQL Innodb cluster setup using Ansible.
+          - Supporting and managing the Kubernetes cluster.
+          
+    - role: Senior DevOps Engineer – CloudOperation
+      time: 2015 - 2019
+      company: smartShift Technologies, Bangalore, India
+      details: |
+          - Created a Chabot to create, stop, and start Ec2 on Aws and rolling deployment using AWS Lex, Slack, and Lambda.
+          - Having good exposure to AWS services such as EC2, EBS, VPC, Route 53, Cloud Front, IAM, ELB, Auto Scaling, Cloud Formation, RDS, SNS, S3, Cloud Watch, and  Security Groups, Lamda, ElasticBean, etc.
+          - Automated the deployment and bootstrapping using Cloud Formation, Jenkins, boto, and Puppet.
+          - Continuous integration and Continuous Delivery using Jenkins, Puppet, Ansible, and  Cloud formation.
+          - Automated rolling deployment of EC2 instances of an ELB using Python and Boto.
+          - Installing and Configuring Puppet master and agent on Linux and Windows.
+          - Extensively using Hiera and ENC as Node classifiers.
+          - Have successfully done POC on Chaos Monkey, written Puppet module, and deployed on production.
+          - Witten the various shell scripts.
+          - Have written Ansible Playbooks for MongoDB, ElasticSearch, Nginx, Apache, Tomcat,JBoss, etc.
+          - Install and configure Chef and written cookbooks.
+
+    - role: Automation Engineer
       time: 2014 - 2015
-      company: Google, London
+      company: Successfactors-SAP, Bangalore, India
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
+          - Installing and Configuring Puppet configuration Management tool on Linux,SUSE, and Solaris Machine.
+          - Troubleshooting all the puppet-related issues.
+          - Written the puppet modules to install and configure the different applications such Apache, Mail server, Mysql, Ntp, etc.
+          - Automated day-to-day tasks using Shell and Ruby script.
+          - Parallel execution of tasks using mcollective.
+          - Extending Puppet with custom facts, types, and functions.
+          - Setup the complete Puppet Infrastructure for the new Data Center.
+          - Written module for MySql, Glusterfs, JBoss, Apache, DNS, etc.
+          - Setup Mercurial version managers.
+          - Setup yum and gem server.
+          - Installing and configuring Jenkins.
+          
+    - role: Automation Engineer
       time: 2012 - 2014
-      company: Amazon, London
+      company: Altisource, Bangalore, India
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
+          - Managing the Active Directory.
+          - Complete automation of Active Directory-related tasks such as new Users(ID)  creation along with different Role-Based Access(RBA) based on the department  and Location and place those accounts in different OU based on Location.
+          - Creation of mailboxes on exchange 2010 for new and existing users based on  requests using PowerShell.
+          - Automated the exit process for Terminated users which includes Disable his or his account, removing the user’s mailbox and other access, and placing them in terminated OU.
+          - Automated the audit process to audit the users’ access and remove the authorized access.
+          - Automated the active and inactive users' reports and share them with the Human  Resources team for head accounts and payroll process.
+         
+    - role: System Administration
+      time: 2010 - 2012
+      company: MindTree, Bangalore, India
+      details: |
+          - Writing shell/Perl scripts to automate the task such a s deployment, rolling bounce, ActiveMQ restart, system utilization, port status check, log removal, etc for Production,QA and Development environments.
+          - Have written a script that restarts the service when its memory utilization is more than the threshold value.
+          - Have Written a script that identifies the service causing the out of memory(heap size) and takes the appropriate action through catalina.sh.
+          - Automated a task to create the smf services using shell script.
+          - Installed and configured the Icinga monitoring tool.
+          - Installed & Configured Puppet centralized configuration tools using Ruby.
+          - Configuring third-party application services under SMF.
+          - Support for DEV, QC, and Staging Environments during the off-time of the client.
+   
+certification:
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - Azure Administrator
+      - Azure DevOps Engineer
+      - ITIL V3 Foundation (ITIL/MY710420)
+      - AWS Certified Solution Architect – Associate
+      
+achievements:
+    intro: |
+      - Star Performer of the Year 2017(smartShift Technologies)
+      - Outstanding Performer of the quarter 2017(smartshift Technologies)
+      - Outstanding Performer of the year 2011-12 (MindTree).
+      - Champion of the Quarter 2013(Altiosource)
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Ansible, Puppet, Chef, SaltStack
         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Terraform
         level: 95%
 
-      - name: Ruby on Rails
+      - name: Python, Shell Scripts, Powershell
+        level: 95%
+
+      - name: AWS, Azure
+        level: 95%
+
+      - name: Kubernetes, Docker & Rancher
         level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
