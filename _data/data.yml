@@ -68,7 +68,7 @@ experiences:
       company: Etisalat Technology Services
       details: |
           - Automated VM provision on VCloud Director using Terraform and integrated with Ansible to apply the base configuration on newly provisioned VMS.
-		  - Automated patching for Linux such as CentOS, RedHat, Ubuntu, and Suse using Ansible.
+          - Automated patching for Linux such as CentOS, RedHat, Ubuntu, and Suse using Ansible.
           - Automated OS hardening for Linux based on CIS Benchmark using Ansible.
           - Automated Azure Kubernetes Service(AKS) with Application Gateway Ingress using Terraform and Helm.
           - Created Gitlab pipeline for the automatic deployment of EKS.
