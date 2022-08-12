@@ -52,24 +52,15 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      DevOps Specialist with 12+ years of experiences in architecting/automation and administation of public & private 
+      cloud provider such AWS, Azure and different flavour of Linux such RedHat, CentOS, Ubutu, SUSE.
+      I have also provisoned/automated Kubernetes, docker and Rancher for containerized environment.
+      Hands of experiences in Automating the Infrastructure provisoning and configuration 
+      using Terraform, Ansible, Puppet, Chef, SaltStack, Python, Shell scripts, Powershell.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+    - degree: Bachelo of Engineering in Information Science Engineering
+      university: Visvesvaraya Technological University (VTU)
+      time: 2005 - 2009
     - degree: BSc in Applied Mathematics
       university: Bristol University
       time: 2007 - 2011
