@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -15,7 +15,7 @@ sidebar:
     email: hussainaphroj@gmail.com
     phone: +971 50 1814 637
     timezone: America/Cancun Timezone
-    citizenship: Nepal
+    citizenship: Dubai, UAE
     website: 
     linkedin: afrozhussain
     xing: 
@@ -61,33 +61,14 @@ education:
     - degree: Bachelo of Engineering in Information Science Engineering
       university: Visvesvaraya Technological University (VTU)
       time: 2005 - 2009
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Expert Engineer – CloudOperation
+      time: 2019 - Present
+      company: Etisalat Technology Services
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
+          - Automated patching for Linux such as CentOS, RedHat, Ubuntu, and Suse using Ansible.
+          - Automated OS hardening for Linux based on CIS Benchmark using Ansible.
     - role: Senior Software Engineer
       time: 2014 - 2015
       company: Google, London
